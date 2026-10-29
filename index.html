@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f4f7ff;
+            color: #17233b;
+        }
+        header {
+            background: #2457d6;
+            color: white;
+            padding: 22px;
+        }
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        button {
+            background: #2457d6;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            width: 220px;
+            box-shadow: 0 4px 12px #dce3ef;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h2>Student Learning Hub</h2>
+</header>
+
+<section class="hero">
+    <h1>Your Learning Journey Starts Here!</h1>
+    <p>Learn new skills, practise coding, and plan your career.</p>
+    <button onclick="document.getElementById('resources').scrollIntoView()">
+        Explore Resources
+    </button>
+</section>
+
+<section id="resources" class="cards">
+    <div class="card">
+        <h3>📘 Study Notes</h3>
+        <p>Organize your study materials and revision notes.</p>
+    </div>
+
+    <div class="card">
+        <h3>💻 Coding Practice</h3>
+        <p>Improve your programming skills with practice.</p>
+    </div>
+
+    <div class="card">
+        <h3>🎯 Career Planning</h3>
+        <p>Explore career options and develop useful skills.</p>
+    </div>
+</section>
+
+<footer>
+    <p>Student Learning Hub | Learn • Build • Grow</p>
+</footer>
+
+</body>
+</html>
